@@ -27,8 +27,8 @@ affiliations:
 
 date: 2026-01-14
 date-format: long
-bibliography: references.bib
-csl: nature.csl
+bibliography: assets/references.bib
+csl: assets/nature.csl
 ---
 
 ## Bicycling in the U.S.
@@ -53,13 +53,13 @@ csl: nature.csl
 # {data-menu-title="The lidar-equipped research bicycle"}
 
 ::: {style="text-align:center;font-size:50px;"}
-![The lidar-equipped research bicycle](./images/lidar-bike.png){fig-align="center" height="580"}
+![The lidar-equipped research bicycle](./assets/images/lidar-bike.png){fig-align="center" height="580"}
 :::
 
 # {data-menu-title="Point cloud demo"}
 
 ::: {style="text-align:center;"}
-[![](./images/point-cloud-demo.png){fig-align="center" height="580"}](https://fenggroup.org/pointcloud/examples/bike-2.html){preview-link="true"}
+[![](./assets/images/point-cloud-demo.png){fig-align="center" height="580"}](https://fenggroup.org/pointcloud/examples/bike-2.html){preview-link="true"}
 :::
 
 ## Preliminary data collection
@@ -93,7 +93,7 @@ csl: nature.csl
 # {data-menu-title="Algorithm flow chart" }
 
 ::: {style="font-size:50px;"}
-![The overtaking vehicle detection and tracking algorithm](./images/flowchart.png){fig-align="center"}
+![The overtaking vehicle detection and tracking algorithm](./assets/images/flowchart.png){fig-align="center"}
 :::
 
 

@@ -8,6 +8,6 @@ format:
     revealjs:
         slide-number: true
         preview-links: auto
-        css: styles.css
+        css: assets/styles.css
         html-math-method: mathjax
 
