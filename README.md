@@ -1,19 +1,23 @@
-# The source code of the lidar bike slide presentation at the TRBAM (Transportation Research Board Annual Meeting) 2026
+# TRBAM 2026 lidar bike paper presentation slides
 
-## Basic setup
-- The slides' contents are written in Markdown in the Quarto markdown file `index.qmd`. More information on the Quarto presentation can be [found here](https://quarto.org/docs/presentations/).
-- The rendered slides are published with GitHub Pages using [GitHub Action](https://quarto.org/docs/publishing/github-pages.html#github-action) specified at `.github/workflows/publish.yml`.
+This repo hosts the source code of the presentation slides of our lidar bike paper titled "*Quantifying Drivers-Overtaking-Bicyclists with Surrogate Safety Measures Derived from a High-Resolution Digital Lidar*".
+The paper will be presented at the [Transportation Research Board Annual Meeting (TRBAM)](https://trb-annual-meeting.nationalacademies.org) 2026. 
 
-## How to collaborate?
+## Basic information
+- The slides are written using [Quarto presentation](https://quarto.org/docs/presentations/). The contents of the slides reside in the Quarto markdown file `index.qmd` in the `main` branch.
+- The rendered slides are published with GitHub Pages using [GitHub Actions](https://quarto.org/docs/publishing/github-pages.html#github-action) specified at `.github/workflows/publish.yml`.
 
-### Requirements
+## For group members who are working on this slides
+
+#### Requirements
 - [Quarto](https://quarto.org/docs/get-started/)
 
-### How to view the slides on a local machine?
-1. Clone the repository.
-1. View the slides by running `quarto preview` or `quarto render` at the root directory of the repo (at the default `main` branch).
+#### How to view the slides on a local machine?
+1. Clone this repository.
+1. Stay on the (default) `main` branch.
+1. View the slides by running `quarto preview` or `quarto render` at the root directory of the repo.
 
-### How to make and submit changes?
+#### How to make and submit changes?
 
 Changes should be submitted via GitHub Pull Requests (PRs).
 
@@ -31,9 +35,3 @@ Changes should be submitted via GitHub Pull Requests (PRs).
     ```
 1. Commit your changes and push the branch to GitHub.
 1. Open an PR on GitHub.
-1. After the PR is merged, clean up locally by deleting the branch.
-    ```{shell}
-    git switch main
-    git pull origin main
-    git branch -d add-intro-slide
-    ```
