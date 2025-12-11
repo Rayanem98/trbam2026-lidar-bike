@@ -6,8 +6,11 @@ execute:
     
 format: 
     revealjs:
+        css: assets/styles.css
+        bibliography: assets/references.bib
+        csl: assets/nature.csl
+        date-format: long
         slide-number: true
         preview-links: auto
-        css: styles.css
         html-math-method: mathjax
 

@@ -26,9 +26,7 @@ affiliations:
     url: https://umdearborn.edu
 
 date: 2026-01-14
-date-format: long
-bibliography: references.bib
-csl: nature.csl
+
 ---
 
 ## Bicycling in the U.S.
