@@ -93,7 +93,7 @@ date: 2026-01-14
 
 
 
-# {data-menu-title="Ouster pointcloud demo"}
+# {data-menu-title="Ouster point cloud demo"}
 
 ::: {style="text-align: center;"}
 <iframe
@@ -107,7 +107,7 @@ date: 2026-01-14
 :::
 
 ::: {style="text-align: center;"}
-[Ouster point cloud demo](https://www.youtube.com/watch?v=bdFzQRhwBIM)
+[Lidar point cloud data collection demo](https://www.youtube.com/watch?v=bdFzQRhwBIM)
 :::
 
 
