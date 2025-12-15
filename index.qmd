@@ -40,10 +40,28 @@ date: 2026-01-14
 - Previous studies on overtaking bicyclists typically used lower resolution sensors (e.g., ultrasonic sensors [@walker2007drivers; @beck2019much] or 2D lidar [@dozza2016drivers]), offering limited insights.
 
 ## High resolution 3D lidar 
+<div style="font-size:0.85em; line-height:1.15;">
 
 - Lidar (Light Detection and Ranging) is a laser-based sensing technology that captures detailed 3D representations of surroundings.
 - Lidar enables detailed 3D analysis of vehicle overtaking behavior, capturing precise distances and trajectories that traditional methods miss.
 - This study leverages lidar to bridge the gap between technological innovation and safer bicycling environments.
+
+</div>
+
+```{=html}
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 0px;
+">
+  <img src="assets/images/pcd-ouster.png" style="height:260px; width:auto;" />
+  <img src="assets/images/OS1-lidar.png"  style="height:260px; width:auto;" />
+</div>
+
+
+
 
 ## Study objectives
 
