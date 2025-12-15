@@ -201,7 +201,7 @@ Segmented overtaking vehicles with their 3D bounding boxes
 # {data-menu-title="Bicycle speed validation" }
 
 ::: {style="font-size:45px"}
-![Validation of bicycle speed estimation based on GPS speed ground truth](assets/images/bicycle-speed-validation.png){fig-align="center"}
+![Validation of bicycle speed estimation based on GPS speed ground truth](assets/images/speed-validation-plot.png){fig-align="center"}
 :::
 
 # {data-menu-title="Result figures"}
