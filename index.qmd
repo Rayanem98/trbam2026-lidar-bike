@@ -107,7 +107,7 @@ date: 2026-01-14
 :::
 
 ::: {style="text-align: center;"}
-[Ouster point cloud video demo](https://www.youtube.com/watch?v=bdFzQRhwBIM)
+[Ouster point cloud demo](https://www.youtube.com/watch?v=bdFzQRhwBIM)
 :::
 
 
