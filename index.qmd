@@ -99,25 +99,15 @@ date: 2026-01-14
 :::
 ::::
 
-# {data-menu-title="Riding data video demo"}
-
-::: {style="text-align: center;"}
-<iframe width="920" height="520" src="https://www.youtube.com/embed/7QOxQVuoDN8?si=DuOOFR4guGslF3Gt" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-::: {style="text-align: center;"}
-[Data collection video demo](https://www.youtube.com/watch?v=7QOxQVuoDN8)
-:::
 
 
-
-# {data-menu-title="Ouster point cloud demo"}
+# {data-menu-title="Combined riding data demo"}
 
 ::: {style="text-align: center;"}
 <iframe
   width="920"
   height="520"
-  src="https://www.youtube.com/embed/bdFzQRhwBIM"
+  src="https://www.youtube.com/embed/-ljcRm7nS6o"
   frameborder="0"
   allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
@@ -125,8 +115,12 @@ date: 2026-01-14
 :::
 
 ::: {style="text-align: center;"}
-[Lidar point cloud data collection demo](https://www.youtube.com/watch?v=bdFzQRhwBIM)
+[Video and point cloud data collection demo](https://www.youtube.com/watch?v=-ljcRm7nS6o)
 :::
+
+
+
+
 
 
 
