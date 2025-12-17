@@ -83,12 +83,12 @@ date: 2026-01-14
 
 
 
-# {data-menu-title="Combined riding data demo"}
+# {data-menu-title="Data collection demo video"}
 
 ::: {style="text-align: center;"}
 <iframe
-  width="920"
-  height="520"
+  width="880"
+  height="550"
   src="https://www.youtube.com/embed/-ljcRm7nS6o"
   frameborder="0"
   allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -97,7 +97,7 @@ date: 2026-01-14
 :::
 
 ::: {style="text-align: center;"}
-[Video and point cloud data collection demo](https://www.youtube.com/watch?v=-ljcRm7nS6o)
+[Point cloud and camera data collection demo](https://www.youtube.com/watch?v=-ljcRm7nS6o)
 :::
 
 
