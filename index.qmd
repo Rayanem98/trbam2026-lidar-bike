@@ -173,7 +173,6 @@ Segmented overtaking vehicles with their 3D bounding boxes
 
 ## Discussions
 
-- Lane geometry strongly influenced clearance: left-lane ≈ 4.47 m, right-lane ≈ 1.86 m.
 - Close passes (<1.5 m) occurred at both low and high speeds, showing risk is not speed-dependent.
 - Passing duration revealed exposure over time; longer overtakes often due to congestion or intersections.
 - Safe overtaking depends on geometry + speed + traffic context, not any single factor.
@@ -181,7 +180,7 @@ Segmented overtaking vehicles with their 3D bounding boxes
 ## Future work
 
 - Expand data collection across more routes, roadway types, and traffic conditions to improve generalizability.
-- Refine methodology with stronger ground-filtering and segmentation to improve vehicle detection reliability.
+- Refine methods to improve vehicle detection reliability under bike tilt and curved roadway conditions.
 - Analyze vehicle trajectories to better characterize lateral overtaking behavior across diverse environments.
 
 ## Acknowledgements
