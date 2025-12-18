@@ -172,18 +172,19 @@ Segmented overtaking vehicles with their 3D bounding boxes
 ## Results
 
 - 306 overtaking events from two trips
-- Passing distance validation over a sample of 98 events
-  - MAE: 3.9 cm 
-  - MAPE: 2.5%
+- 98 events had valid C3FT readings.
+- Passing distance validation: MAE: 3.9 cm, MAPE: 2.5%
 
 :::: {.columns}
 ::: {.column}
-![](assets/images/c3ft-validation.png)
+![](assets/images/c3ft-validation.png){height=270px}
 :::
 ::: {.column}
-![](assets/images/passing-dist.png)
+![](assets/images/passing-dist.png){height=270px}
 :::
 ::::
+
+
 
 # {data-menu-title="Bicycle speed validation" }
 
