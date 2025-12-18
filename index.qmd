@@ -50,7 +50,6 @@ date: 2026-01-14
 ::: {.column width="70%"}
 ![](assets/images/pcd-ouster.png){height=290px}
 :::
-
 ::: {.column width="30%"}
 ![](assets/images/OS1-lidar.png){height=290px}
 :::
