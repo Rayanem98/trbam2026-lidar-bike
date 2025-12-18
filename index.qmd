@@ -131,7 +131,7 @@ Segmented overtaking vehicles with their 3D bounding boxes
 ::::
 
 ## Surrogate Safety Measures
-- **Bicycle speed** estimated using frame-to-frame registration with Iterative Closes Point & Random Sample Consensus algorithms.
+- **Bicycle speed** estimated using frame-to-frame registration with Iterative Closes Point [@icp] & Random Sample Consensus [@ransac] algorithms.
 ![](assets/images/icp-diagram.png)
 
 ## Surrogate Safety Measures
