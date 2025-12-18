@@ -150,8 +150,8 @@ Segmented overtaking vehicles with their 3D bounding boxes
 
 ## Surrogate Safety Measures (2/3)
 - **Bicycle speed**: Based on frame-to-frame registration with
-  - ICP (Iterative Closest Point [@icp])
-  - RANSAC (Random Sample Consensus[@ransac])
+  - ICP (Iterative Closest Point)[@icp]
+  - RANSAC (Random Sample Consensus)[@ransac]
   
 ![](assets/images/icp-diagram.png){fig-align="center"}
 
