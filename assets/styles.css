@@ -13,6 +13,8 @@
 }
 
 .qrcode {
-  margin-bottom: 2rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
