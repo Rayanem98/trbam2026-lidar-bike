@@ -196,12 +196,12 @@ $$
 
 :::: {.columns}
 ::: {.column}
-![](assets/images/passing-dist-hist.png)
-![](assets/images/passing-duration-hist.png)
+![](assets/images/passing_distance_distribution_2.png)
+![](assets/images/passing_duration_distribution_2.png)
 :::
 ::: {.column}
-![](assets/images/passing-speed-hist.png)
-![](assets/images/passing-speed-vs-duration.png)
+![](assets/images/avg_speed_distribution_2.png)
+![](assets/images/avg_speed_vs_duration_trendline_2.png)
 :::
 ::::
 
