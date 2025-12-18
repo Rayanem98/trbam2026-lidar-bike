@@ -37,28 +37,22 @@ date: 2026-01-14
 - Bicycling is underutilized with **0.5%** of commuters riding a bicycle (vs. 69.2% commuters driving alone).[@uscb2024commuting]
 - **1,166** bicyclists were killed and **49,989** injured in 2023.[@ncsa2025bicyclists]
 - Drivers overtaking bicyclists is one of the most dangerous encounters with rear-end collisions accounting for 40% bicyclist fatalities.[@lab2014bicyclist]
-- Previous studies on overtaking bicyclists typically used lower resolution sensors (e.g., ultrasonic sensors [@walker2007drivers; @beck2019much] or 2D lidar [@dozza2016drivers]), offering limited insights.
+- Previous studies on overtaking bicyclists typically used lower resolution sensors (e.g., ultrasonic sensors [@beck2019much] or 2D lidar [@dozza2016drivers]), offering limited insights.
 
-## High resolution 3D lidar{.smaller}
+## High resolution 3D lidar
 
-- Lidar (Light Detection and Ranging) is a laser-based sensing technology that captures high-resolution 3D representations of surroundings.
-- Lidar enables detailed 3D analysis of vehicle overtaking behavior, capturing precise distances and trajectories that traditional methods miss.
-- This study leverages lidar to bridge the gap between technological innovation and safer bicycling environments.
+- Lidar (Light Detection and Ranging) is a laser-based sensor that captures 3D representations of surroundings.
+- It enables detailed 3D analysis of the interactions among road users (e.g., drivers, bicyclists) in a given environment.
 
 
 :::: {.columns}
-::: {.column width="70%"}
-![](assets/images/pcd-ouster.png){height=290px}
-:::
-
 ::: {.column width="30%"}
 ![](assets/images/OS1-lidar.png){height=290px}
 :::
+::: {.column width="70%"}
+![](assets/images/pcd-ouster.png){height=290px}
+:::
 ::::
-
-
-
-
 
 ## Study objectives
 
@@ -115,15 +109,6 @@ date: 2026-01-14
 [Point cloud and camera data collection demo](https://www.youtube.com/watch?v=-ljcRm7nS6o)
 :::
 
-
-
-
-
-
-
-
-
-
 # {data-menu-title="Algorithm flow chart" }
 
 ::: {style="font-size:50px;"}
@@ -149,7 +134,7 @@ Segmented overtaking vehicles with their 3D bounding boxes
 :::
 
 
-## Surrogate Safety Measures
+## Surrogate Safety Measures (1/3)
 - **Passing distance**: the closest distance from the lidar to the car within the passing region
 - **Passing duration**: the duration of time that a vehicle spends in the bicycle's passing region
 
@@ -163,15 +148,25 @@ Segmented overtaking vehicles with their 3D bounding boxes
 :::
 ::::
 
-## Surrogate Safety Measures
-- **Bicycle speed** estimated using frame-to-frame registration with Iterative Closest Point [@icp] & Random Sample Consensus [@ransac] algorithms.
-![](assets/images/icp-diagram.png)
+## Surrogate Safety Measures (2/3)
+- **Bicycle speed**: Based on frame-to-frame registration with
+  - ICP (Iterative Closest Point [@icp])
+  - RANSAC (Random Sample Consensus[@ransac])
+  
+![](assets/images/icp-diagram.png){fig-align="center"}
 
-## Surrogate Safety Measures
-- **Vehicle Speed**: estimated based on:
-  - **bicycle speed** 
-  - **relative vehicle speed** estimated using numerical differentiation of vehicle centroid locations across frames:
-  𝓿(t) = 𝔁(𝒕) − 𝔁(𝒕 − ∆𝒕) / ∆𝒕 ; with ∆𝒕 = 0.3s
+## Surrogate Safety Measures (3/3)
+- **Vehicle Speed**
+  <!-- - **bicycle speed**  -->
+  - **Relative vehicle speed** estimated using numerical differentiation of vehicle centroid locations across frames
+
+  $$
+  v(t)=\frac{x(t)-x(t-\delta t)}{\delta t}
+  $$
+  
+$$
+\text{vehicle speed} = \text{relative vehicle speed} + \text{bicycle speed}
+$$
    
 
 ## Results
@@ -251,7 +246,7 @@ Slide URL and QR code:
 ::::
 
 - Public repositories
-  - Data: <>
+  - Data: <https://fenggroup.org/lidar-bike/>
   - Code: <>
 - Contact
   - Rayane Moustafa: <rayanem@umich.edu>
