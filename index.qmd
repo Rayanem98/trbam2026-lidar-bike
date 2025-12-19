@@ -246,4 +246,4 @@ This material is based upon work supported by the National Science Foundation un
   - Rayane Moustafa: <rayanem@umich.edu>
   - Dr. Fred Feng: <fredfeng@umich.edu>
 
-![](assets/images/fenggroup-logo.png){.absolute bottom=0 right=0 height="40"}
+<!-- ![](assets/images/fenggroup-logo.png){.absolute bottom=0 right=0 height="40"} -->
