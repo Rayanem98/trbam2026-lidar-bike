@@ -208,14 +208,15 @@ $$
 ## Discussions
 
 - Close passes (<1.5 m) occurred at both low and high speeds, showing risk is not speed-dependent.
-- Passing duration revealed exposure over time; longer overtakes often due to congestion or intersections.
-- Safe overtaking depends on geometry + speed + traffic context, not any single factor.
+- Passing duration revealed exposure over time; longer overtakes often due to vehicle congestion.
+- Overtaking behavior depends on a combination of factors including: roadway design,  speed and traffic context.
 
 ## Future work
 
-- Expand data collection across more routes, roadway types, and traffic conditions to improve generalizability.
-- Refine methods to improve vehicle detection reliability under bike tilt and curved roadway conditions.
-- Analyze vehicle trajectories to better characterize lateral overtaking behavior across diverse environments.
+- Continued data collection across more roadway types and traffic conditions.
+- Refine methods to improve vehicle detection reliability under challenging conditions like tilted bike and curved roadway conditions.
+- Analyze vehicle trajectories to better understand other overtaking characteristics; 
+  e.g. : vehicle lateral movement,  and the timing to initiate the overtaking.
 
 ## Acknowledgements
 
@@ -241,7 +242,7 @@ This material is based upon work supported by the National Science Foundation un
 
 - Public repositories
   - Data: [fenggroup.org/lidar-bike](https://fenggroup.org/lidar-bike/)
-  - Code: 
+  - Code: [fenggroup.org/lidar-bike-code](https://github.com/fenggroup/overtaking-vehicle-tracking-lidar)
 - Contact
   - Rayane Moustafa: <rayanem@umich.edu>
   - Dr. Fred Feng: <fredfeng@umich.edu>
