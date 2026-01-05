@@ -172,7 +172,7 @@ $$
 ## Results
 
 - 306 overtaking events from two trips
-- 98 events had valid C3FT readings.
+- 98 events had valid C3FT [@C3FT] readings.
 - Passing distance validation: MAE: 3.9 cm, MAPE: 2.5%
 
 :::: {.columns}
