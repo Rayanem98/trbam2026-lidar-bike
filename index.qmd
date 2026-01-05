@@ -42,7 +42,7 @@ date: 2026-01-14
 ## High resolution 3D lidar
 
 - Lidar (Light Detection and Ranging) is a laser-based sensor that captures 3D representations of surroundings.
-- It enables detailed 3D analysis of road user behavior and interactions (e.g., drivers, bicyclists) in a given environment.
+- It enables detailed 3D analysis of road user's behavior and interactions (e.g., drivers, bicyclists) in a given environment.
 
 
 :::: {.columns}
