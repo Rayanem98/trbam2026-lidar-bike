@@ -200,8 +200,8 @@ $$
 ![](assets/images/passing_duration_distribution_2.png)
 :::
 ::: {.column}
-![](assets/images/avg_speed_distribution_2.png)
-![](assets/images/avg_speed_vs_duration_trendline_2.png)
+![](assets/images/avg_speed_distribution_updated.png)
+![](assets/images/speed_vs_passing_distance.png)
 :::
 ::::
 
